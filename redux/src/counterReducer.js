@@ -1,7 +1,7 @@
 import React from "react";
 
 let initialState = {
-  counter: 0,
+  counter: 100,
 };
 
 const counterReducer = (state = initialState, action) => {

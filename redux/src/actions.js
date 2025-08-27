@@ -1,12 +1,12 @@
-function increaseCount() {
+function INCREMENT() {
   return {
-    type: "INCREASE_COUNT",
+    type: "INCREMENT",
   };
 }
 
-function decreaseCount() {
+function DECREMENT() {
   return {
-    type: "DECREASE_COUNT",
+    type: "DECREMENT",
   };
 }
-export { increaseCount, decreaseCount };
+export { INCREMENT, DECREMENT };
