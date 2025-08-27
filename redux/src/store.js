@@ -1,6 +1,5 @@
 import { createStore } from "redux";
-import counterReducer from "./counterReducer";
+import todoReducer from "./todoReducer";
 
-let store = createStore(counterReducer);
-
+let store = createStore(todoReducer);
 export default store;

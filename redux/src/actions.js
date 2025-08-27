@@ -1,12 +1,14 @@
-function INCREMENT() {
+function addTodo(text) {
   return {
-    type: "INCREMENT",
+    type: "ADD",
+    payload: text,
   };
 }
 
-function DECREMENT() {
+function removeTodo(id) {
   return {
-    type: "DECREMENT",
+    type: "REMOVE",
+    payload: id,
   };
 }
-export { INCREMENT, DECREMENT };
+export { addTodo, removeTodo };
