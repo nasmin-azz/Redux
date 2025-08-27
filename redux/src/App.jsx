@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import TodoAdderForm from './components/TodoAdderForm';
+import TodoList from './components/TodoList';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello, Redux!</h1>
+      <TodoAdderForm/>
+      <TodoList/>
     </div>
   );
 };
